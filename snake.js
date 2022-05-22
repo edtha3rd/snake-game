@@ -27,7 +27,8 @@ export function draw(gameBoard) {
 }
 
 export function expandSnake(amount) {
-  document.getElementById('score').replaceChildren('SCORE: ' + score++)
+  score += 1
+  document.getElementById('score').replaceChildren('SCORE: ' + score)
   newSegments += amount
 }
 
