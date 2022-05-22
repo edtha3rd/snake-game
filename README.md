@@ -2,7 +2,7 @@
 
 ### Try it out!
 
-https://edtha3rd.github.io/snake-game/index.html
+https://edtha3rd.github.io/snake-game
 
 A snake game in vanilla JS
 
