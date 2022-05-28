@@ -1,40 +1,39 @@
-@font-face {
-    font-family: 'SEVEN';
-    src: url('./assets/fonts/seven_segment/Seven\ Segment.ttf');
-}
-
 body {
-    align-self: center;
-    background-color: black;
-    display: inline;
-    justify-content: center;
-    margin: 0;
-    min-width: 100vw;
-    width: 100vw;
+    background-color: #0D1828;
+    height: 100vh;
+    padding: 20px;
 }
 
-#game-board {
-    background-color: bisque;
-    display: grid;
-    grid-template-rows: repeat(21, 1fr);
-    grid-template-columns: repeat(21, 1fr);
-    height: 90vmin;
-    width: 100vmin;
+@font-face {
+    font-family: 'Abidafih';
+    src: url('./assets/fonts/adibafih/Adibafih.ttf');
 }
 
-#score {
+.header {
     color: white;
-    font-family: 'SEVEN';
-    font-size: larger;
+    font-family: 'Abidafih';
+    font-size: 24px;
     text-align: center;
 }
 
-.snake {
-    background-color: darkcyan;
-    border: .25vmin solid black;
+.listItem {
+    background-color: aliceblue;
+    border-radius: 30px;
+    margin: 20px;
 }
 
-.food {
-    background-color: darkgoldenrod;
-    border: .25vmin solid black;
+.listItem:hover {
+    background-color: #a0f8ff;
+    border-radius: 30px;
+    box-shadow: 1px 1px 1px white;
+    z-index: 35;
+}
+
+.menu {
+    box-shadow: white;
+    text-align: center;
+}
+
+.column.center {
+    margin-top: 25vh;
 }
