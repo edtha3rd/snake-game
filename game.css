@@ -51,18 +51,19 @@ body {
     background-size: cover;
     color: black;
     grid-column-start: 4;
-    grid-row-start: 6;
+    grid-row-start: 4;
     grid-column-end: 5;
-    grid-row-end: 7;
-    height: 50px;
+    grid-row-end: 5;
+    height: 60px;
     text-align: center;
+    width: 60px;
 }
 #down {
     background-image: url('./assets/img/down.jpg');
     background-size: cover;
     color: black;
     grid-column: 4 / 5;
-    grid-row: 7 / 8;
+    grid-row: 5 / 6;
     text-align: center;
 }
 #left {
@@ -70,7 +71,7 @@ body {
     background-size: cover;
     color: black;
     grid-column: 3 / 4;
-    grid-row: 7 / 8;
+    grid-row: 5 / 6;
     text-align: center;
 } 
 #right {
@@ -78,7 +79,7 @@ body {
     background-size: cover;
     color: black;
     grid-column: 5 / 6;
-    grid-row: 7 / 8;
+    grid-row: 5 / 6;
     text-align: center;
 }
 @media (min-width: 800px){
