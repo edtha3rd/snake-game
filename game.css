@@ -42,11 +42,48 @@ body {
 .controls {
     color: white;
     display: grid;
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(8, 1fr);
     grid-template-columns: repeat(7, 1fr);
+}
+#up {
+    background-image: url('./assets/img/up.jpg');
+    background-size: cover;
+    color: black;
+    grid-column-start: 4;
+    grid-row-start: 6;
+    grid-column-end: 5;
+    grid-row-end: 7;
+    height: 50px;
+    text-align: center;
+}
+#down {
+    background-image: url('./assets/img/down.jpg');
+    background-size: cover;
+    color: black;
+    grid-column: 4 / 5;
+    grid-row: 7 / 8;
+    text-align: center;
+}
+#left {
+    background-image: url('./assets/img/left.jpg');
+    background-size: cover;
+    color: black;
+    grid-column: 3 / 4;
+    grid-row: 7 / 8;
+    text-align: center;
+} 
+#right {
+    background-image: url('./assets/img/right.jpg');
+    background-size: cover;
+    color: black;
+    grid-column: 5 / 6;
+    grid-row: 7 / 8;
+    text-align: center;
 }
 @media (min-width: 800px){
     .controls {
         display: none;
     }
 }
+
+
