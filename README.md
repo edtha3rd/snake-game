@@ -1,5 +1,8 @@
 # Vanilla JS Snake Game
 
+## Preview
+!['gameplay'](gameplay.png)
+
 ### Try it out!
 
 https://edtha3rd.github.io/snake-game
